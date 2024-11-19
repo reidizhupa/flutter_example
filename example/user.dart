@@ -1,13 +1,13 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:grestapp_homeal_app/api/api_response_dio.dart';
-import 'package:grestapp_homeal_app/constants/enums/models/database/user/user_gender.dart';
-import 'package:grestapp_homeal_app/constants/enums/models/database/user/user_type.dart';
-import 'package:grestapp_homeal_app/models/database/listing.dart';
-import 'package:grestapp_homeal_app/utils/my-libraries/date_time_manager.dart';
-import 'package:grestapp_homeal_app/models/database/company.dart';
-import 'package:grestapp_homeal_app/utils/my-libraries/http_dio.dart';
+import 'package:app/api/api_response_dio.dart';
+import 'package:app/constants/enums/models/database/user/user_gender.dart';
+import 'package:app/constants/enums/models/database/user/user_type.dart';
+import 'package:app/models/database/listing.dart';
+import 'package:app/utils/my-libraries/date_time_manager.dart';
+import 'package:app/models/database/company.dart';
+import 'package:app/utils/my-libraries/http_dio.dart';
 
 class User {
   String id;
